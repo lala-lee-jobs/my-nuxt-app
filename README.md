@@ -20,3 +20,26 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## nuxt on firebase hosting
+
+### create nuxt-app
+```bash
+$ npx create-nuxt-app <my-nuxt-app>
+```
+
+### firebase init
+```bash
+$ cd my-nuxt-app
+$ firebase init
+```
+
+### nuxt generate
+```bash
+$ npm run generate
+```
+
+### firebase deploy
+```bash
+$ firebase deploy
+```
